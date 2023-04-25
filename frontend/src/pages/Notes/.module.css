@@ -1,0 +1,31 @@
+.my-note-pane {
+    min-width: 100vw;
+    min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.my-note-pane nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0 5em;
+    min-height: 5vh;
+    border-bottom: 2px solid gray;
+    margin-bottom: 5vh;
+}
+
+.my-note-pane .nav-right-pane {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.my-note-pane .first-section-pane {
+    padding: 0 5em;
+    display: flex;
+    flex-direction: column;
+}

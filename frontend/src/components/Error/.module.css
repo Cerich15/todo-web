@@ -1,0 +1,17 @@
+.error-handler-pane{
+    background-color: red;
+    min-height: 2em;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    z-index: 1;
+    position: absolute;
+    left: calc(50% - 25vw);
+    top: calc(50% - 16em)
+}
+
+.error-handler-pane a {
+    padding: 2px;
+    cursor: pointer;
+}

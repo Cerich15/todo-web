@@ -1,0 +1,21 @@
+.sign-in-pane {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.sign-in-pane .input-pane {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sign-in-pane .input-pane input{
+    min-width: 40vw;
+    outline: none;
+    padding: 5px;
+}

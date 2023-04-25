@@ -1,0 +1,9 @@
+.dropdown-menu-pane {
+    position: relative;
+}
+
+.dropdown-menu-pane .item-pane{
+    position: absolute;
+    white-space: nowrap;
+    cursor: pointer;
+}
